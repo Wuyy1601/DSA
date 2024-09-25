@@ -10,7 +10,9 @@
 Lưu ý:
 1) Chỉ cài đặt hàm Insert.
 2) Các kiểu dữ liệu và các hàm cần thiết của các kiểu dữ liệu đã được cài đặt sẵn. Sinh viên có thể đọc để sử dụng.
-3) Đầu vào và đầu ra đã được xử lý sẵn và phù hợp với định dạng nhập/xuất.*/
+3) Đầu vào và đầu ra đã được xử lý sẵn và phù hợp với định dạng nhập/xuất.
+4)test
+*/
 
 #include <iostream>
 #include <string>
