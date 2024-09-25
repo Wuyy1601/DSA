@@ -1,0 +1,134 @@
+﻿  Sourced.cpp
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(21,9): error C2065: 's3': undeclared identifier
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(28,9): error C2065: 's4': undeclared identifier
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,9): error C2679: binary '[': no operator found which takes a right-hand operand of type 'char' (or there is no acceptable conversion)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(345,18):
+  could be 'std::vector<std::string,std::allocator<std::string>> &std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>::operator [](const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+  	C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,9):
+  	'std::vector<std::string,std::allocator<std::string>> &std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>::operator [](const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': cannot convert argument 2 from 'char' to 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &'
+  		C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  		Reason: cannot convert from 'char' to 'const std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  		C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  		'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string': no overloaded function could convert all the argument types
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2556,5):
+  			could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+  				C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  				'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'char' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+  					C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  					Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(3134,5):
+  			or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+  				C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  				'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'char' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+  					C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  					Conversion requires a second user-defined-conversion operator or constructor
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2586,5):
+  			or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+  			C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  			while trying to match the argument list '(char)'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map(174,18):
+  or       'std::vector<std::string,std::allocator<std::string>> &std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>::operator [](std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)'
+  	C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,9):
+  	'std::vector<std::string,std::allocator<std::string>> &std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>::operator [](std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)': cannot convert argument 2 from 'char' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&'
+  		C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  		Reason: cannot convert from 'char' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  		C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  		'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string': no overloaded function could convert all the argument types
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2556,5):
+  			could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+  				C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  				'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'char' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+  					C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  					Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(3134,5):
+  			or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+  				C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  				'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'char' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+  					C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  					Conversion requires a second user-defined-conversion operator or constructor
+  			C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2586,5):
+  			or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+  			C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,14):
+  			while trying to match the argument list '(char)'
+  C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(29,9):
+  while trying to match the argument list '(std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>, char)'
+  
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(31,12): error C2065: 'm': undeclared identifier
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(33,14): error C2065: 'm': undeclared identifier
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(34,25): error C2065: 'm': undeclared identifier
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(50,16): error C2131: expression did not evaluate to a constant
+  C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(50,16):
+  failure was caused by a read of a variable outside its lifetime
+  C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(50,16):
+  see usage of 'v'
+  
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(52,22): error C2039: 'eDinhty': is not a member of 'std::stack<char,std::deque<char,std::allocator<char>>>'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stack(25,7):
+  see declaration of 'std::stack<char,std::deque<char,std::allocator<char>>>'
+  
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(55,29): error C3863: array type 'bool [v]' is not assignable
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(61,51): error C3861: 'check': identifier not found
+C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(88,9): error C2664: 'void TimDuongDiBangDFS(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>,std::map<char,int,std::less<char>,std::allocator<std::pair<const char,int>>>,char,char,std::map<char,std::vector<char,std::allocator<char>>,std::less<char>,std::allocator<std::pair<const char,std::vector<char,std::allocator<char>>>>>,int)': cannot convert argument 2 from 'std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>' to 'std::map<char,int,std::less<char>,std::allocator<std::pair<const char,int>>>'
+  C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(88,34):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(47,6):
+  see declaration of 'TimDuongDiBangDFS'
+  C:\Users\ADMIN\source\repos\STL\DoThi1\Sourced.cpp(88,9):
+  while trying to match the argument list '(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>, std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>, _Ty, _Ty, std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>, int)'
+          with
+          [
+              _Ty=char
+          ]
+  

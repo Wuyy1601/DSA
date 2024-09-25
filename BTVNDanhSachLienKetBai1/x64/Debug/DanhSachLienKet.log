@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (DanhSachLienKet.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  FileName.cpp
+C:\Users\ADMIN\source\repos\Danhsachlienketdon\DanhSachLienKet\FileName.cpp(141,14): warning C4804: '<=': unsafe use of type 'bool' in operation
+  DanhSachLienKet.vcxproj -> C:\Users\ADMIN\source\repos\Danhsachlienketdon\x64\Debug\BTVNDanhSachLienKetBai1.exe
